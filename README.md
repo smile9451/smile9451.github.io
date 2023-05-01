@@ -43,7 +43,9 @@
     <li>Mechanics
       <ul>
         <li><a href="gravitation.pdf">Chapter Gravitation</a></li>
-        <li><a href="math_chapter2.pdf">Chapter 2</a></li>
+        <li><a href="Centre of Mass.pdf">Chapter Centre Of Mass</a></li>
+        <li><a href="Mechanics of Non-rigid bodies.pdf">Chapter Mechanics Of Non Rigid Bodies</a></li>
+        <li><a href="Relativity.pdf">Chapter Relativity</a></li>
       </ul>
     </li>
     <li>Science
