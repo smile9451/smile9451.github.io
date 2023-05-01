@@ -8,9 +8,10 @@
   <p>Welcome to our website where you can download study materials for free.</p>
   <h2>Available Downloads:</h2>
   <ul>
-    <li><a href="math.pdf">Mathematics</a></li>
-    <li><a href="science.pdf">Science</a></li>
-    <li><a href="history.pdf">History</a></li>
+    <li><a href="Physics.pdf">Mathematics</a></li>
+    <li><a href="Maths.pdf">Science</a></li>
+    <li><a href="PPS.pdf">History</a></li>
+    <li><a href="Enviornment.pdf">History</a></li>
   </ul>
 </body>
 </html>
