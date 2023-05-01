@@ -48,16 +48,15 @@
         <li><a href="Relativity.pdf">Chapter Relativity</a></li>
       </ul>
     </li>
-    <li>Science
+    <li>Mathematics
       <ul>
-        <li><a href="science_chapter1.pdf">Chapter 1</a></li>
-        <li><a href="science_chapter2.pdf">Chapter 2</a></li>
-      </ul>
+        <li><a href="Maths syllabus 2022-23.pdf">Maths Syllabus</a></li>
+        <li><a href="conic section(Rd Pathak) .pdf">Conic Sections Book chapter From 1 To 5</a></li>
+       </ul>
     </li>
-    <li>History
+    <li>Physics
       <ul>
-        <li><a href="history_chapter1.pdf">Chapter 1</a></li>
-        <li><a href="history_chapter2.pdf">Chapter 2</a></li>
+        <li><a href="DocScanner 13-Mar-2023 11-35 am.pdf">Full Wave Rectifier</a></li>
       </ul>
     </li>
   </ul>
