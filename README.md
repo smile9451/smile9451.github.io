@@ -1,38 +1,63 @@
-<?php
-// check if the search form has been submitted
-if (isset($_GET['query'])) {
-  // get the search query from the form
-  $query = $_GET['query'];
-
-  // search for study materials that match the query
-  // (this is just an example - you'll need to implement your own search logic)
-  $results = search_study_materials($query);
-
-  // display the search results
-  foreach ($results as $result) {
-    echo "<p><a href='{$result['file']}'>{$result['title']}</a></p>";
-  }
-}
-
-// example function to search for study materials (you'll need to implement your own search logic)
-function search_study_materials($query) {
-  // example data (you'll need to get this data from your database or file system)
-  $study_materials = [
-    ['title' => 'Mechanics Chapter Gravitation', 'file' => 'gravitation.pdf'],
-    ['title' => 'Mechanics Chapter Centre Of Mass', 'file' => 'Centre of Mass.pdf'],
-    ['title' => 'Science Chapter 1', 'file' => 'science_chapter1.pdf'],
-    ['title' => 'Science Chapter 2', 'file' => 'science_chapter2.pdf'],
-    ['title' => 'History Chapter 1', 'file' => 'history_chapter1.pdf'],
-    ['title' => 'History Chapter 2', 'file' => 'history_chapter2.pdf'],
-  ];
-
-  // search for study materials that match the query
-  $results = [];
-  foreach ($study_materials as $material) {
-    if (stripos($material['title'], $query) !== false) {
-      $results[] = $material;
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Free Study Materials</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
     }
-  }
-
-  return $results;
-}
+    h1 {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px;
+    }
+    li {
+      list-style-type: none;
+      margin: 0;
+      padding: 10px;
+    }
+    li a {
+      color: #4CAF50;
+      text-decoration: none;
+    }
+    li a:hover {
+      color: white;
+      background-color: #4CAF50;
+    }
+    form {
+      margin: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Free Study Materials</h1>
+  <form>
+    <input type="search" placeholder="Search...">
+    <button>Search</button>
+  </form>
+  <p>Welcome to our website where you can download study materials for free.</p>
+  <h2>Available Downloads:</h2>
+  <ul>
+    <li>Mechanics
+      <ul>
+        <li><a href="gravitation.pdf">Chapter Gravitation</a></li>
+        <li><a href="math_chapter2.pdf">Chapter 2</a></li>
+      </ul>
+    </li>
+    <li>Science
+      <ul>
+        <li><a href="science_chapter1.pdf">Chapter 1</a></li>
+        <li><a href="science_chapter2.pdf">Chapter 2</a></li>
+      </ul>
+    </li>
+    <li>History
+      <ul>
+        <li><a href="history_chapter1.pdf">Chapter 1</a></li>
+        <li><a href="history_chapter2.pdf">Chapter 2</a></li>
+      </ul>
+    </li>
+  </ul>
+</body>
+</html>
