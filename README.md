@@ -18,8 +18,8 @@ if (isset($_GET['query'])) {
 function search_study_materials($query) {
   // example data (you'll need to get this data from your database or file system)
   $study_materials = [
-    ['title' => 'Mechanics Chapter Gravitation', 'file' => 'math_chapter1.pdf'],
-    ['title' => 'Math Chapter 2', 'file' => 'math_chapter2.pdf'],
+    ['title' => 'Mechanics Chapter Gravitation', 'file' => 'gravitation.pdf'],
+    ['title' => 'Mechanics Chapter Centre Of Mass', 'file' => 'Centre of Mass.pdf'],
     ['title' => 'Science Chapter 1', 'file' => 'science_chapter1.pdf'],
     ['title' => 'Science Chapter 2', 'file' => 'science_chapter2.pdf'],
     ['title' => 'History Chapter 1', 'file' => 'history_chapter1.pdf'],
